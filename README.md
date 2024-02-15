@@ -181,3 +181,22 @@ Maintenant, revenez à la branche dev et vérifiez que le « test.txt » est
 désormais présent.
 
 
+Merge
+-------
+
+Nous essayons maintenant de fusionner les 2 branches. Idéalement, vous souhaiterez fusionner deux branches ensemble une fois le travail terminé.
+`git merge` vous permet de faire cela.
+
+La fusion Git fonctionne en basculant d'abord la branche dans laquelle vous souhaitez appliqué ces changements, puis en exécutant la commande pour fusionner l'autre branche.
+
+17. Nous voulons maintenant fusionner notre branche `dev` dans `main`. Tout d’abord, passez à la branche `main`.
+
+Vous devez être dans la branche dans laquelle vous souhaitez fusionner *dans* et ensuite vous spécifiez toujours la branche que vous souhaitez fusionner.
+
+À ce stade, vous pouvez également essayer `gitk` pour visualiser les changements et comment les deux branches ont fusionné
+
+
+Merge Conflicts
+---------------
+
+
