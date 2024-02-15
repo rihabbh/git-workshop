@@ -199,4 +199,11 @@ Vous devez être dans la branche dans laquelle vous souhaitez fusionner *dans* e
 Merge Conflicts
 ---------------
 
+Git est assez efficace pour fusionner automatiquement, même lorsque le même fichier est modifié. Il existe cependant certaines situations dans lesquelles la même ligne de code est modifiée et il n'y a aucun moyen pour un ordinateur de comprendre comment fusionner.\
+Cela déclenchera un conflit que vous devrez résoudre.
+
+Nous nous entraînons maintenant à résoudre les conflits de fusion. Rappelons que les conflits sont provoqués par des fusions qui affectent le même bloc de code.
+
+Voici une branche que j’ai préparée plus tôt. La branche s'appelle `merging`. Changez de branche pour passer à la branche `merging`. Essayez de fusionner cette branche dans « master » maintenant et corrigez le conflit qui s'ensuit.
+​
 
