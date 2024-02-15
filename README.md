@@ -227,3 +227,7 @@ Maintenant, essayez de **réparer le conflit de merge**. Choisissez le texte que
 
 Une fois que j'ai fait cela, je peux alors marquer le conflit comme résolu en utilisant `git add` et `git commit`.
 
+Partie II
+=======
+
+Consultez la branche `revert` sur ce référentiel pour plus d'instructions !
