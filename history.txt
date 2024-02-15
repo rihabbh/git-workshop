@@ -11,8 +11,6 @@ He cited an example of a source-control management system needing 30 seconds to 
 
 These criteria eliminated every version-control system in use at the time, so immediately after the 2.6.12-rc2 Linux kernel development release, Torvalds set out to write his own.
 
-Git (/ɡɪt/) is a distributed version control system that tracks changes in any set of computer files, usually used for coordinating work among programmers who are collaboratively developing source code during software development. Its goals include speed, data integrity, and support for distributed, non-linear workflows (thousands of parallel branches running on different computers)
-
 The development of Git began on 3 April 2005. 
 Torvalds announced the project on 6 April and became self-hosting the next day. The first merge of multiple branches took place on 18 April. 
 Torvalds achieved his performance goals; on 29 April, the nascent Git was benchmarked recording patches to the Linux kernel tree at a rate of 6.7 patches per second.
