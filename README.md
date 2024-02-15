@@ -61,3 +61,22 @@ Vous verrez :
             112 packed-refs
     <DIR>   refs
 
+
+
+The staging area
+----------------
+
+Maintenant, essayons d'ajouter quelques fichiers au projet. Créez quelques
+des dossiers.
+
+2. Créons deux fichiers nommés « file1.txt » et « file2.txt ».
+
+Utilisons une analogie avec le courrier.
+
+Dans Git, vous ajoutez d'abord du contenu à la « zone de transit » en utilisant « git add ».
+C’est comme mettre les choses que vous souhaitez envoyer dans une boîte en carton.
+Vous finalisez le processus et l'enregistrez dans l'index git en utilisant
+`git commit`. C'est comme sceller la boîte : elle est maintenant prête à être envoyée.
+
+3. Ajoutons les fichiers à la "staging area"
+
