@@ -207,3 +207,23 @@ Nous nous entraînons maintenant à résoudre les conflits de fusion. Rappelons 
 18. Voici une branche que j’ai préparée plus tôt. La branche s'appelle `merging`. Changez de branche pour passer à la branche `merging`. Essayez de fusionner cette branche dans « master » maintenant et corrigez le conflit qui s'ensuit.
 ​
 
+Résoudre un conflit
+-----------------
+
+Vous devriez voir un « conflit » avec le fichier « history.txt ». Cela signifie que la même ligne de texte a été modifiée et validée à la fois sur la branche master et sur la fusion alpher. Le résultat ci-dessous vous indique essentiellement la situation actuelle :
+
+    Auto-merging history.txt
+    CONFLICT (content): Merge conflict in history.txt
+    Automatic merge failed; fix conflicts and then commit the result.
+
+Ouvrez VScode pour pouvoir résoudre le probléme plus facilement.
+
+Git utilise à peu près des marqueurs de résolution de conflits standards. La partie supérieure du bloc, qui est tout entre `<<<<<< HEAD` et `======` est ce qui se trouvait dans votre branche actuelle.\
+La moitié inférieure est la version présente dans la branche `merging`.
+Pour résoudre le conflit, soit vous choisissez un camp, soit vous les fusionnez comme bon vous semble.
+
+19. Pour cet exemple, je décide de choisir la version dans la branche `merging`.
+Maintenant, essayez de **réparer le conflit de merge**. Choisissez le texte que vous pensez être meilleur.
+
+Une fois que j'ai fait cela, je peux alors marquer le conflit comme résolu en utilisant `git add` et `git commit`.
+
