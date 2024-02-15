@@ -99,3 +99,50 @@ la date à laquelle il a été validé, un numéro SHA de validation et le messa
 commettre.
 
 6. Vous devriez également voir dans votre commit le plus récent, où vous avez ajouté les deux nouveaux fichiers de la section précédente. Cependant, ces informations ne sont pas disponible avec git log qui n'affiche pas les fichiers impliqué dans chaque commit. Quel autre commande vous permet de le voir ?
+
+Une digression nécessaire
+----------------------
+
+Dans cette section, nous allons ajouter d'autres modifications et essayer de récupérer des erreurs.
+
+ Il nous faudra ajouter du contenu dans file1.txt.
+
+Ouvrez « file1.txt » et saisissez "Hello world"
+
+Puis **enregistrez** le fichier
+
+Qu'avons-nous changé ? Une commande très utile est `git diff`. C'est très
+utile pour voir exactement les modifications que vous avez apportées.
+
+     $ git diff
+
+Vous devriez voir quelque chose comme ce qui suit :
+
+     diff --git a/file1.txt b/file2.txt
+     indice e69de29..2aedcab 100644
+     --- a/alice.txt
+     +++ b/alice.txt
+     @@ -0,0 +1 @@
+     +Hello world
+
+
+
+Staging area à nouveau
+-------------------
+
+7. Ajoutons maintenant notre fichier modifié, « file1.txt » à la staging area. 
+
+8. Ensuite, vérifiez le `statut`  de « file1.txt ». Est-ce dans la staging area maintenant ?
+
+Défaire
+-------
+
+Disons que nous ne sommes pas satisfait des modification apporté dans `file1.txt`. Un avantage de la staging area est de nous permettre de reculer avant un commit - ce qui est un peu plus difficile à retirer. Rappellez vous de l'analogie du courrier : il est plus facile de retirer le courrier de la boîte en carton avant scellez qu’après.
+
+9. Retirez `file1.txt` de la staging area
+
+10. Comparez le « git status » maintenant au git status du précédent
+section. En quoi est-ce différent ?
+
+11. Retirez les modifications effectuées dans `file1.txt` à l'aide de `git checkout`.
+
