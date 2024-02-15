@@ -204,6 +204,6 @@ Cela déclenchera un conflit que vous devrez résoudre.
 
 Nous nous entraînons maintenant à résoudre les conflits de fusion. Rappelons que les conflits sont provoqués par des fusions qui affectent le même bloc de code.
 
-Voici une branche que j’ai préparée plus tôt. La branche s'appelle `merging`. Changez de branche pour passer à la branche `merging`. Essayez de fusionner cette branche dans « master » maintenant et corrigez le conflit qui s'ensuit.
+18. Voici une branche que j’ai préparée plus tôt. La branche s'appelle `merging`. Changez de branche pour passer à la branche `merging`. Essayez de fusionner cette branche dans « master » maintenant et corrigez le conflit qui s'ensuit.
 ​
 
