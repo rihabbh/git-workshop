@@ -34,16 +34,16 @@ Commençons ce workshop
 
 Vous souhaiterez peut-être créer votre propre copie du projet sur github et
 clonez à partir de votre propre dépôt. Vous pouvez trouver le bouton fork en haut à droite de
-l'écran sur un référentiel github, ou plus d'aide pour le faire [ici](https://help.github.com/articles/fork-a-repo/).
+l'écran sur un répo github, ou plus d'aide pour le faire [ici](https://help.github.com/articles/fork-a-repo/).
 
-Une fois que vous avez cloné votre référentiel, vous devriez maintenant voir un répertoire
+Une fois que vous avez cloné votre répo, vous devriez maintenant voir un répertoire
 appelé `git-workshop`. Ceci est votre « répertoire de travail »
 
     $ dir git-workshop
     $ ls
 
 Pour les curieux, vous devriez également voir le sous-répertoire `.git`. C'est
-où sont conservés toutes les données et l’historique de votre référentiel.
+où sont conservés toutes les données et l’historique de votre répo.
 
      $ dir -a .git
 
@@ -230,4 +230,4 @@ Une fois que j'ai fait cela, je peux alors marquer le conflit comme résolu en u
 Partie II
 =======
 
-Consultez la branche `revert` sur ce référentiel pour plus d'instructions !
+Consultez la branche `revert` sur ce répo pour plus d'instructions !
