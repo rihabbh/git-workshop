@@ -80,3 +80,22 @@ Vous finalisez le processus et l'enregistrez dans l'index git en utilisant
 
 3. Ajoutons les fichiers à la "staging area"
 
+
+Committing
+----------
+
+4. Vous êtes maintenant prêt à vous engager. Le flag `-m` vous permet de saisir un message pour accompagner le commit en même temps.
+
+
+Voyons ce qui vient de se passer
+----------------------------
+
+5. Nous devrions maintenant avoir un nouveau commit. Pour voir tous les commits jusqu'à présent, afficher les logs.
+
+
+Le journal doit afficher tous les commits répertoriés du plus récent au moins
+récent. Vous verriez diverses informations comme le nom de l'auteur,
+la date à laquelle il a été validé, un numéro SHA de validation et le message pour le
+commettre.
+
+6. Vous devriez également voir dans votre commit le plus récent, où vous avez ajouté les deux nouveaux fichiers de la section précédente. Cependant, ces informations ne sont pas disponible avec git log qui n'affiche pas les fichiers impliqué dans chaque commit. Quel autre commande vous permet de le voir ?
