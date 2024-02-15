@@ -146,3 +146,38 @@ section. En quoi est-ce différent ?
 
 11. Retirez les modifications effectuées dans `file1.txt` à l'aide de `git checkout`.
 
+Branch
+-------
+
+La plupart des grandes bases de code ont au moins deux branches : une branche « main » et une branche « développement ». La branche main est un code qui peut être déployé sur un site Web ou téléchargé par les clients. La branche de développement permet aux développeurs de travailler sur des fonctionnalités qui pourraient ne pas être exemptes de bugs. Ce n'est que lorsque tout le monde sera satisfait de la branche de développement qu'elle sera fusionnée avec la branche main.
+
+Créer une branche dans Git est simple. La commande `git branch`, lorsqu'elle est utilisée seule, listera les branches que vous avez actuellement
+
+    $ git branch
+
+Le  `*` devrait indiquer la branch sur laquelle nous sommes actuellement , qui `main`.
+
+12. Créer une nouvelle branche, à partir de `main` que vous appelerez `dev`
+
+13. Assurez vous que la branche a bien été créer et que vous êtes dessus. 
+
+14. Créer un fichier text.txt et committez le dans la branch `dev`.
+
+15. Utilisiez `git diff` pour comparer la branch `dev` à `main` . Noramlement le résultat affiché devrait précisee que « test.txt » est présent sur la branche  `dev`, mais est absent sur la branche `main`.
+
+
+16. Git est assez performant pour gérer vos fichiers lorsque vous basculez entre les branches. Revenez à la branche « principale »
+
+Essayez de revenir à la branche master (Indice : c'est la même commande que celle que nous avons utilisée pour passer à la branche dev ci-dessus)
+Maintenant, où est notre fichier `test.txt` ?
+
+    $ dir
+    README.md  file1.txt   file2.txt     history.txt
+
+
+Comme vous pouvez le constater, le nouveau fichier que vous avez créé dans l'autre branche a disparu. Ne vous inquiétez pas, il est rangé en toute sécurité et réapparaîtra lorsque vous reviendrez à cette branche.
+
+Maintenant, revenez à la branche dev et vérifiez que le « test.txt » est
+désormais présent.
+
+
