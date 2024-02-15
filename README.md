@@ -120,8 +120,8 @@ Vous devriez voir quelque chose comme ce qui suit :
 
      diff --git a/file1.txt b/file2.txt
      indice e69de29..2aedcab 100644
-     --- a/alice.txt
-     +++ b/alice.txt
+     --- a/file1.txt
+     +++ b/file1.txt
      @@ -0,0 +1 @@
      +Hello world
 
