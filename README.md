@@ -204,7 +204,7 @@ Cela déclenchera un conflit que vous devrez résoudre.
 
 Nous nous entraînons maintenant à résoudre les conflits de fusion. Rappelons que les conflits sont provoqués par des fusions qui affectent le même bloc de code.
 
-18. Voici une branche que j’ai préparée plus tôt. La branche s'appelle `merging`. Changez de branche pour passer à la branche `merging`. Essayez de fusionner cette branche dans « master » maintenant et corrigez le conflit qui s'ensuit.
+18. Voici une branche que j’ai préparée plus tôt. La branche s'appelle `merge`. Changez de branche pour passer à la branche `merge`. Essayez de fusionner cette branche dans « master » maintenant et corrigez le conflit qui s'ensuit.
 ​
 
 Résoudre un conflit
@@ -219,10 +219,10 @@ Vous devriez voir un « conflit » avec le fichier « history.txt ». Cela signi
 Ouvrez VScode pour pouvoir résoudre le probléme plus facilement.
 
 Git utilise à peu près des marqueurs de résolution de conflits standards. La partie supérieure du bloc, qui est tout entre `<<<<<< HEAD` et `======` est ce qui se trouvait dans votre branche actuelle.\
-La moitié inférieure est la version présente dans la branche `merging`.
+La moitié inférieure est la version présente dans la branche `merge`.
 Pour résoudre le conflit, soit vous choisissez un camp, soit vous les fusionnez comme bon vous semble.
 
-19. Pour cet exemple, je décide de choisir la version dans la branche `merging`.
+19. Pour cet exemple, je décide de choisir la version dans la branche `merge`.
 Maintenant, essayez de **réparer le conflit de merge**. Choisissez le texte que vous pensez être meilleur.
 
 Une fois que j'ai fait cela, je peux alors marquer le conflit comme résolu en utilisant `git add` et `git commit`.
